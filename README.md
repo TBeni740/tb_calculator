@@ -1,1 +1,4 @@
-A simple Fivem calculator script
+Fivem calculator script.
+
+Preview:
+  https://streamable.com/e6rezc
