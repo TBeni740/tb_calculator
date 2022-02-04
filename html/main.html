@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</head>
+	<body oncontextmenu="return false">
+
+        <div id="calculator" style="display: none;">
+                <div id="error-window" style="display: none;"><h5></h5></div>
+
+                <div id=calculator-resultScreen>
+                        <div id="action"></div>
+                        <div id="userInput"></div>
+                </div>
+                <div id="calculator-offButton"><i class="fas fa-power-off"></i></div>
+                <div id="advanced_actions">
+                        <button class="advenced-actions-button" data-action="remove"><i class="fas fa-backspace"></i></button>
+                        <button class="advenced-actions-button" data-action="clean action"><b>CE</b></button>
+                        <button class="advenced-actions-button" data-action="clean all"><b>C</b></button>
+                        <button class="advenced-actions-button" data-action="square"><i class="fas fa-square-root-alt"></i></button>
+                        <button class="advenced-actions-button" data-action="pow"><b>^2</b></button>
+                        <button class="advenced-actions-button" data-action="percentage"><b><span>&#37;</span></b></button>
+
+                </div>
+                <div id="numbers_container">
+                        <button class="numbers-button"><b>9</b></i></button>
+                        <button class="numbers-button"><b>8</b></i></button>
+                        <button class="numbers-button"><b>7</b></i></button>
+                        <button class="numbers-button"><b>6</b></i></button>
+                        <button class="numbers-button"><b>5</b></i></button>
+                        <button class="numbers-button"><b>4</b></i></button>
+                        <button class="numbers-button"><b>3</b></i></button>
+                        <button class="numbers-button"><b>2</b></button>
+                        <button class="numbers-button"><b>1</b></button>
+                        <button class="numbers-button"><b>.</b></i></button>
+                        <button class="numbers-button"><b>0</b></i></button>
+                        <button class="numbers-button"><b>+/-</b></i></button>
+
+                </div>
+
+                <div id=simple_actions>
+                        <button class="simple-actions-button" data-action="="><i class="fas fa-equals"></i></button>
+                        <button class="simple-actions-button" data-action="+"><i class="fas fa-plus"></i></button>
+                        <button class="simple-actions-button" data-action="-"><i class="fas fa-minus"></i></button>
+                        <button class="simple-actions-button" data-action="*"><i class="fas fa-times"></i></button>
+                        <button class="simple-actions-button" data-action="/"><i class="fas fa-divide"></i></button>
+                </div>
+        </div>
+
+        <script src="script.js" type="text/javascript"></script>
+	</body>
+</html>

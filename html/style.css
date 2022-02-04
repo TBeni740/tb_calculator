@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+#calculator {
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    background-color: rgba(1, 6, 19, 0.993);
+    left: 85%;
+    top: 60%;
+    box-shadow: 0 4px 8px 0 rgba(1, 6, 19, 0.993), 0 6px 20px 0 rgba(1, 6, 19, 0.993);
+}
+
+#calculator #error-window {
+    background: linear-gradient(rgba(151, 14, 14, 0.822), rgb(218, 26, 26));;
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    bottom: 350px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+}
+
+#calculator #error-window h5 {
+    position: relative;
+    bottom: 15px;
+}
+
+#calculator #calculator-resultScreen {
+    position: relative;
+    height: 10%;
+    width: 75%;
+    background-color: rgb(4, 12, 32);
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+    user-select: text;
+}
+
+#calculator #calculator-resultScreen #userInput {
+    position: relative;
+    height: 80%;
+    width: 37%;
+    margin: 3px;
+    border-radius: 5px;
+    float: left;
+}
+
+#calculator #calculator-resultScreen #userInput h5 {
+    position: relative;
+    color: white;
+    text-align: left;
+    bottom: 15px;
+    left: 1px;
+}
+
+#calculator #calculator-resultScreen #action {
+    position: relative;
+    height: 80%;
+    width: 55%;
+    margin: 3px;
+    border-radius: 5px;
+    float: left;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+#calculator #calculator-resultScreen #action h5 {
+    position: relative;
+    color: white;
+    text-align: right;
+    bottom: 15px;
+    right: 1px;
+}
+
+#calculator #calculator-offButton {
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    right: 15px;
+    color: white;
+    float: right;
+}
+
+#calculator #calculator-offButton:hover {
+    color: rgba(255, 0, 0, 0.685);
+    font-size: 21px;
+}
+
+#calculator #numbers_container {
+    position: relative;
+    height: 120px;
+    width: 140px;
+    top: 10px;
+    left: 5px;
+    float: left;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#calculator #simple_actions {
+    position: relative;
+    height: 160px;
+    width: 83px;
+    top: 11px;
+    left: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator #advanced_actions {
+    position: relative;
+    height: 90px;
+    width: 230px;
+    top: 5px;
+    left: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#calculator #numbers_container .numbers-button {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.849);
+    margin: 1px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+#calculator #simple_actions .simple-actions-button {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.849);
+    margin: 1px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+#calculator #advanced_actions .advenced-actions-button {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.849);
+    margin: 1px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 1px;
+
+}
+
+#calculator #numbers_container .numbers-button:hover {
+    font-size: 15px;
+    width: 43px;
+    height: 43px;
+    background-color: rgb(1, 6, 51);
+}
+
+#calculator #simple_actions .simple-actions-button:hover {
+    font-size: 15px;
+    width: 82px;
+    height: 52px;
+    background-color: rgb(1, 6, 51);
+}
+
+#calculator #advanced_actions .advenced-actions-button:hover {
+    font-size: 15px;
+    width: 72px;
+    height: 32px;
+    background-color: rgb(1, 6, 51);
+}
